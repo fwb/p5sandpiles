@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "target": "es5",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "sourceRoot": "./sketch/",
+        "rootDir": "./sketch/",
+        "outDir": "./build/",
+        "sourceMap": true,
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    }
+}

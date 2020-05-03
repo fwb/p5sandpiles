@@ -1,0 +1,9 @@
+node_modules/
+.vscode/
+**/*.js
+**/*.js.map
+local/
+!build/build.js
+.cache/
+dist/
+yarn.lock
