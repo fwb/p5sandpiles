@@ -4,5 +4,29 @@ html, body {
 
 body {
     padding: 0;
-    margin: 0;
+    margin: 10px;
+    background-color: #222;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#control-container {
+    margin-top: 5px;
+    display: flex;
+}
+
+.control {
+    font-size: 2px;
+    background-color: #222;
+    color: #e47200;
+    border: none;
+    outline: none;
+}
+
+.control:hover {
+    color: #7200e4;
 }
